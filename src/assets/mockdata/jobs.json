@@ -1,0 +1,354 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
+      "location": "Boston, MA",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Front-End Engineer (React & Redux)",
+      "type": "Full-Time",
+      "location": "Miami, FL",
+      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Veneer Solutions",
+        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
+        "contactEmail": "contact@loremipsum.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "3",
+      "title": "React.js Dev",
+      "type": "Full-Time",
+      "location": "Brooklyn, NY",
+      "description": "Are you passionate about front-end development? Join our team in vibrant Brooklyn, NY, and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
+      "salary": "$70K - $80K",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "Dolor Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
+        "contactEmail": "contact@dolorsitamet.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "4",
+      "title": "React Front-End Developer",
+      "type": "Part-Time",
+      "description": "Join our team as a Part-Time Front-End Developer in beautiful Pheonix, AZ. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
+      "location": "Pheonix, AZ",
+      "salary": "$60K - $70K",
+      "company": {
+        "name": "Alpha Elite",
+        "description": "Alpha Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
+        "contactEmail": "contact@adipisicingelit.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Full Stack React Developer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a Full-Time Front-End Developer in bustling Atlanta, GA. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+      "location": "Atlanta, GA",
+      "salary": "$90K - $100K",
+      "company": {
+        "name": "Browning Technologies",
+        "description": "Browning Technologies is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+        "contactEmail": "contact@consecteturadipisicing.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "6",
+      "title": "React Native Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Front-End Developer in beautiful Portland, OR. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "location": "Portland, OR",
+      "salary": "$100K - $110K",
+      "company": {
+        "name": "Port Solutions INC",
+        "description": "Port Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
+        "contactEmail": "contact@ipsumlorem.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "e5de",
+      "title": "Pariatur Ad quae se",
+      "description": "Amet maxime neque N",
+      "type": "Internship",
+      "salary": "Under $50K",
+      "location": "Aliquam dolorem mole",
+      "company": "Dunlap and Ballard Inc",
+      "companyDescription": "Minima architecto in",
+      "contactEmail": "xiqazigun@mailinator.com",
+      "contactPhone": "+1 (248) 854-2287"
+    },
+    {
+      "id": "1949",
+      "title": "Voluptatem aut vita",
+      "description": "Et qui sunt lorem ad",
+      "type": "Part-Time",
+      "salary": "$80K - 90K",
+      "location": "Autem fugiat enim qu",
+      "company": "Michael and Hines Associates",
+      "companyDescription": "Asperiores provident",
+      "contactEmail": "qijogo@mailinator.com",
+      "contactPhone": "+1 (339) 653-7918"
+    },
+    {
+      "id": "1ae3",
+      "title": "Eaque ut proident a",
+      "description": "Dolorem unde tenetur",
+      "type": "Internship",
+      "salary": "$80K - 90K",
+      "location": "Est quia labore repu",
+      "company": "Blake Cameron Plc",
+      "companyDescription": "Minima animi nihil ",
+      "contactEmail": "maja@mailinator.com",
+      "contactPhone": "+1 (994) 657-7076"
+    },
+    {
+      "id": "2297",
+      "title": "Eaque ut proident a",
+      "description": "Dolorem unde tenetur",
+      "type": "Internship",
+      "salary": "$80K - 90K",
+      "location": "Est quia labore repu",
+      "company": "Blake Cameron Plc",
+      "companyDescription": "Minima animi nihil ",
+      "contactEmail": "maja@mailinator.com",
+      "contactPhone": "+1 (994) 657-7076"
+    },
+    {
+      "id": "7af1",
+      "title": "Eaque ut proident a",
+      "description": "Dolorem unde tenetur",
+      "type": "Internship",
+      "salary": "$80K - 90K",
+      "location": "Est quia labore repu",
+      "company": "Blake Cameron Plc",
+      "companyDescription": "Minima animi nihil ",
+      "contactEmail": "maja@mailinator.com",
+      "contactPhone": "+1 (994) 657-7076"
+    },
+    {
+      "id": "d8c2",
+      "title": "Esse veniam totam r",
+      "description": "In voluptatum doloru",
+      "type": "Internship",
+      "salary": "$125K - 150K",
+      "location": "Quidem Nam nisi duis",
+      "company": "Kidd and Garza Traders",
+      "companyDescription": "Consequatur qui cul",
+      "contactEmail": "tetyg@mailinator.com",
+      "contactPhone": "+1 (858) 399-6904"
+    },
+    {
+      "id": "9798",
+      "title": "Et dolorem voluptate",
+      "description": "Quos repudiandae cup",
+      "type": "Part-Time",
+      "salary": "Under $50K",
+      "location": "Est consectetur sun",
+      "company": "Roman Kim Associates",
+      "companyDescription": "Et at consequatur q",
+      "contactEmail": "vovaza@mailinator.com",
+      "contactPhone": "+1 (324) 726-9966"
+    },
+    {
+      "id": "8670",
+      "title": "Doloribus explicabo",
+      "description": "Temporibus minus deb",
+      "type": "Remote",
+      "salary": "$125K - 150K",
+      "location": "Ea enim voluptas cor",
+      "company": "Cardenas Blankenship LLC",
+      "companyDescription": "Saepe corrupti quia",
+      "contactEmail": "jexufafagy@mailinator.com",
+      "contactPhone": "+1 (829) 535-4904"
+    },
+    {
+      "id": "7aa6",
+      "title": "Commodo omnis magnam",
+      "description": "Possimus assumenda ",
+      "type": "Remote",
+      "salary": "$125K - 150K",
+      "location": "Ipsam odio sed inven",
+      "company": "Johns Shelton Associates",
+      "companyDescription": "Illum consectetur r",
+      "contactEmail": "lobikyti@mailinator.com",
+      "contactPhone": "+1 (407) 847-7622"
+    },
+    {
+      "id": "6f37",
+      "title": "Deserunt enim atque ",
+      "description": "Laborum laborum dele",
+      "type": "Full-Time",
+      "salary": "$90K - 100K",
+      "location": "Quia ipsam exercitat",
+      "company": "Spears Browning Trading",
+      "companyDescription": "Architecto eum harum",
+      "contactEmail": "gojic@mailinator.com",
+      "contactPhone": "+1 (771) 925-1703"
+    },
+    {
+      "id": "aac8",
+      "title": "Dolor veniam quod v",
+      "description": "Sit neque dolorem t",
+      "type": "Part-Time",
+      "salary": "Over $200K",
+      "location": "Nisi ullamco dolor a",
+      "company": "Ferrell and Hickman Co",
+      "companyDescription": "Laboris quam rerum s",
+      "contactEmail": "mely@mailinator.com",
+      "contactPhone": "+1 (444) 392-6242"
+    },
+    {
+      "id": "f261",
+      "title": "Consequatur et ea p",
+      "description": "Sunt amet laborum v",
+      "type": "Internship",
+      "salary": "$150K - 175K",
+      "location": "Temporibus unde cons",
+      "company": "Cantu and Greene Inc",
+      "companyDescription": "Temporibus autem ani",
+      "contactEmail": "notihi@mailinator.com",
+      "contactPhone": "+1 (864) 532-5156"
+    },
+    {
+      "id": "22ef",
+      "title": "Rem excepturi velit",
+      "description": "Voluptatem sit cupi",
+      "type": "Part-Time",
+      "salary": "$80K - 90K",
+      "location": "In sed dolor dolor i",
+      "company": "Parks Phelps Inc",
+      "companyDescription": "Fuga Eos praesentiu",
+      "contactEmail": "guporuqatu@mailinator.com",
+      "contactPhone": "+1 (108) 659-9155"
+    },
+    {
+      "id": "3825",
+      "title": "Aliqua Esse facere ",
+      "description": "Sed alias nesciunt ",
+      "type": "Full-Time",
+      "salary": "$50K - 60K",
+      "location": "Corporis in sapiente",
+      "company": "pierce-and-summers-traders",
+      "companyDescription": "Ut placeat reprehen",
+      "contactEmail": "fucugipule@mailinator.com",
+      "contactPhone": "+1 (806) 742-2868"
+    },
+    {
+      "id": "d7b9",
+      "title": "Ratione repellendus",
+      "type": "Part-Time",
+      "location": "Ducimus eu recusand",
+      "description": "Mollitia similique a",
+      "salary": "Over $200K",
+      "company": {
+        "name": "schneider-and-boyle-traders",
+        "description": "Consequatur sed aute",
+        "contactEmail": "suqegel@mailinator.com",
+        "contactPhone": "+1 (776) 708-4426"
+      }
+    },
+    {
+      "id": "220e",
+      "title": "test1",
+      "type": "Internship",
+      "location": "Dicta omnis blanditi",
+      "description": "Ad elit ea velit e",
+      "salary": "$100K - 125K",
+      "company": {
+        "name": "whitaker-bryant-traders",
+        "description": "Et aliquam omnis lab",
+        "contactEmail": "sojaqotyr@mailinator.com",
+        "contactPhone": "+1 (915) 877-7247"
+      }
+    },
+    {
+      "id": "4bfb273a-8c62-48d7-a359-a4ddd728a519",
+      "title": "test2",
+      "type": "Internship",
+      "location": "Explicabo Nesciunt",
+      "description": "Est aliquam voluptat",
+      "salary": "$60K - 70K",
+      "company": {
+        "name": "knowles-and-armstrong-trading",
+        "description": "Minus optio volupta",
+        "contactEmail": "covynini@mailinator.com",
+        "contactPhone": "+1 (174) 788-9205"
+      }
+    },
+    {
+      "id": "f868a8a1-1e82-4ba8-a071-6b17f3db1b2b",
+      "title": "Adipisci lorem enim ",
+      "type": "Full-Time",
+      "location": "Aute consectetur ve",
+      "description": "At voluptatem ipsum",
+      "salary": "$60K - 70K",
+      "company": {
+        "name": "underwood-mcclure-traders",
+        "description": "Placeat sint conse",
+        "contactEmail": "pofahukot@mailinator.com",
+        "contactPhone": "+1 (171) 713-4649"
+      }
+    },
+    {
+      "id": "7585d279-8849-424b-a2d8-16f3d06a5c72",
+      "title": "Ea voluptatem vitae ",
+      "type": "Internship",
+      "location": "Error ducimus dolor",
+      "description": "Corrupti dolor vero",
+      "salary": "Under $50K",
+      "company": {
+        "name": "davis-vazquez-plc",
+        "description": "Earum sunt sit tem",
+        "contactEmail": "qulur@mailinator.com",
+        "contactPhone": "+1 (237) 792-5016"
+      }
+    },
+    {
+      "id": "2de7c02f-185a-4acd-90ae-5787a60f19f0",
+      "title": "remote 1",
+      "type": "Remote",
+      "location": "In molestias consect",
+      "description": "Quia dolorem quos ve",
+      "salary": "Under $50K",
+      "company": {
+        "name": "barber-landry-llc",
+        "description": "A earum ut iure ipsu",
+        "contactEmail": "xehymu@mailinator.com",
+        "contactPhone": "+1 (467) 266-3526"
+      }
+    },
+    {
+      "id": "287a4c67-4864-4fb6-abf2-2ae3e8b6444c",
+      "title": "Et dolor vitae rerum",
+      "type": "Full-Time",
+      "location": "Qui nobis aliquam la",
+      "description": "Distinctio Modi com",
+      "salary": "$80K - 90K",
+      "company": {
+        "name": "norman-and-flynn-trading",
+        "description": "Ipsum quaerat conseq",
+        "contactEmail": "benyl@mailinator.com",
+        "contactPhone": "+1 (677) 475-8251"
+      }
+    }
+  ]
+}

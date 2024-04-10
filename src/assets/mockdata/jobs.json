@@ -1,34 +1,6 @@
 {
   "jobs": [
     {
-      "id": "1",
-      "title": "Senior React Developer",
-      "type": "Full-Time",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
-      "location": "Boston, MA",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "NewTek Solutions",
-        "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
-        "contactEmail": "contact@teksolutions.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "2",
-      "title": "Front-End Engineer (React & Redux)",
-      "type": "Full-Time",
-      "location": "Miami, FL",
-      "description": "Join our team as a Front-End Developer in sunny Miami, FL. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
-      "salary": "$70K - $80K",
-      "company": {
-        "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
-        "contactEmail": "contact@loremipsum.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
       "id": "3",
       "title": "React.js Dev",
       "type": "Full-Time",
@@ -107,30 +79,6 @@
       "companyDescription": "Asperiores provident",
       "contactEmail": "qijogo@mailinator.com",
       "contactPhone": "+1 (339) 653-7918"
-    },
-    {
-      "id": "1ae3",
-      "title": "Eaque ut proident a",
-      "description": "Dolorem unde tenetur",
-      "type": "Internship",
-      "salary": "$80K - 90K",
-      "location": "Est quia labore repu",
-      "company": "Blake Cameron Plc",
-      "companyDescription": "Minima animi nihil ",
-      "contactEmail": "maja@mailinator.com",
-      "contactPhone": "+1 (994) 657-7076"
-    },
-    {
-      "id": "2297",
-      "title": "Eaque ut proident a",
-      "description": "Dolorem unde tenetur",
-      "type": "Internship",
-      "salary": "$80K - 90K",
-      "location": "Est quia labore repu",
-      "company": "Blake Cameron Plc",
-      "companyDescription": "Minima animi nihil ",
-      "contactEmail": "maja@mailinator.com",
-      "contactPhone": "+1 (994) 657-7076"
     },
     {
       "id": "7af1",
@@ -218,15 +166,17 @@
     },
     {
       "id": "f261",
-      "title": "Consequatur et ea p",
-      "description": "Sunt amet laborum v",
-      "type": "Internship",
-      "salary": "$150K - 175K",
-      "location": "Temporibus unde cons",
-      "company": "Cantu and Greene Inc",
-      "companyDescription": "Temporibus autem ani",
-      "contactEmail": "notihi@mailinator.com",
-      "contactPhone": "+1 (864) 532-5156"
+      "title": "Test Part Time",
+      "type": "Part-Time",
+      "location": "Non eum mollitia rep",
+      "description": "Rerum dolor omnis ad",
+      "salary": "$80K - 90K",
+      "company": {
+        "name": "Stout Gross Trading",
+        "description": "Quia hic in ut archi",
+        "contactEmail": "subisuqo@mailinator.com",
+        "contactPhone": "+1 (557) 564-8261"
+      }
     },
     {
       "id": "22ef",
@@ -251,20 +201,6 @@
       "companyDescription": "Ut placeat reprehen",
       "contactEmail": "fucugipule@mailinator.com",
       "contactPhone": "+1 (806) 742-2868"
-    },
-    {
-      "id": "d7b9",
-      "title": "Ratione repellendus",
-      "type": "Part-Time",
-      "location": "Ducimus eu recusand",
-      "description": "Mollitia similique a",
-      "salary": "Over $200K",
-      "company": {
-        "name": "schneider-and-boyle-traders",
-        "description": "Consequatur sed aute",
-        "contactEmail": "suqegel@mailinator.com",
-        "contactPhone": "+1 (776) 708-4426"
-      }
     },
     {
       "id": "220e",
@@ -296,7 +232,7 @@
     },
     {
       "id": "f868a8a1-1e82-4ba8-a071-6b17f3db1b2b",
-      "title": "Adipisci lorem enim ",
+      "title": "Remote 543",
       "type": "Full-Time",
       "location": "Aute consectetur ve",
       "description": "At voluptatem ipsum",
@@ -310,7 +246,7 @@
     },
     {
       "id": "7585d279-8849-424b-a2d8-16f3d06a5c72",
-      "title": "Ea voluptatem vitae ",
+      "title": "Remote 123",
       "type": "Internship",
       "location": "Error ducimus dolor",
       "description": "Corrupti dolor vero",
@@ -324,7 +260,7 @@
     },
     {
       "id": "2de7c02f-185a-4acd-90ae-5787a60f19f0",
-      "title": "remote 1",
+      "title": "remote 2",
       "type": "Remote",
       "location": "In molestias consect",
       "description": "Quia dolorem quos ve",
@@ -334,20 +270,6 @@
         "description": "A earum ut iure ipsu",
         "contactEmail": "xehymu@mailinator.com",
         "contactPhone": "+1 (467) 266-3526"
-      }
-    },
-    {
-      "id": "287a4c67-4864-4fb6-abf2-2ae3e8b6444c",
-      "title": "Et dolor vitae rerum",
-      "type": "Full-Time",
-      "location": "Qui nobis aliquam la",
-      "description": "Distinctio Modi com",
-      "salary": "$80K - 90K",
-      "company": {
-        "name": "norman-and-flynn-trading",
-        "description": "Ipsum quaerat conseq",
-        "contactEmail": "benyl@mailinator.com",
-        "contactPhone": "+1 (677) 475-8251"
       }
     }
   ]

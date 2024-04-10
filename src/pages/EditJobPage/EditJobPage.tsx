@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useParams, useLoaderData, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { JobDTO } from "../../models/Job";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 interface EditJobPageProps {
   updateJobSubmit: (job: JobDTO) => void;
@@ -23,6 +25,7 @@ const EditJobPage = ({ updateJobSubmit }: EditJobPageProps) => {
 
   const navigate = useNavigate();
   const { id } = useParams() as { id: string };
+  const MySwal = withReactContent(Swal);
 
   const submitForm = (e: React.FormEvent) => {
     e.preventDefault();
@@ -42,11 +45,25 @@ const EditJobPage = ({ updateJobSubmit }: EditJobPageProps) => {
       },
     };
 
-    updateJobSubmit(updatedJob);
-
-    toast.success("Job Updated Successfully");
-
-    return navigate(`/jobs/${id}`);
+    MySwal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, update it!",
+    }).then(async (result) => {
+      if (result.isConfirmed) {
+        try {
+          updateJobSubmit(updatedJob);
+          toast.success("Job Updated Successfully");
+          return navigate(`/jobs/${id}`);
+        } catch (error) {
+          toast.error("Error updating job!");
+        }
+      }
+    });
   };
 
   return (

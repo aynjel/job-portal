@@ -3,6 +3,9 @@ import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import { JobDTO } from "../../models/Job";
+// import axios from "axios";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 interface JobPageProps {
   deleteJob: (id: string) => void;
@@ -11,19 +14,28 @@ interface JobPageProps {
 const JobPage = ({ deleteJob }: JobPageProps) => {
   const navigate = useNavigate();
   const job = useLoaderData() as JobDTO;
+  const MySwal = withReactContent(Swal);
 
   const onDeleteClick = (jobId: string) => {
-    const confirm = window.confirm(
-      "Are you sure you want to delete this listing?"
-    );
-
-    if (!confirm) return;
-
-    deleteJob(jobId);
-
-    toast.success("Job deleted successfully");
-
-    navigate("/jobs");
+    MySwal.fire({
+      title: "Are you sure?",
+      text: "You won't be able to revert this!",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: "#3085d6",
+      cancelButtonColor: "#d33",
+      confirmButtonText: "Yes, delete it!",
+    }).then(async (result) => {
+      if (result.isConfirmed) {
+        try {
+          deleteJob(jobId);
+          toast.success("Job deleted successfully");
+          navigate("/jobs");
+        } catch (error) {
+          toast.error("Error deleting job!");
+        }
+      }
+    });
   };
 
   return (
@@ -116,10 +128,12 @@ const JobPage = ({ deleteJob }: JobPageProps) => {
 };
 
 const jobLoader: LoaderFunction = async ({ params }) => {
-  const response = await fetch(`/api/jobs/${params.id}`);
-  const job = await response.json();
+  // const { data } = await axios.get(`/api/jobs/${params.id}`);
+  const data = JSON.parse(localStorage.getItem("jobs") || "[]").find(
+    (job: JobDTO) => job.id === params.id
+  );
 
-  return job;
+  return data;
 };
 
 export { JobPage as default, jobLoader };

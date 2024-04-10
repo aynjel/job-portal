@@ -30,7 +30,7 @@ const JobPage = ({ deleteJob }: JobPageProps) => {
         try {
           deleteJob(jobId);
           toast.success("Job deleted successfully");
-          navigate("/jobs");
+          navigate("/job-portal/jobs");
         } catch (error) {
           toast.error("Error deleting job!");
         }
@@ -43,7 +43,7 @@ const JobPage = ({ deleteJob }: JobPageProps) => {
       <section>
         <div className="container m-auto py-6 px-6">
           <Link
-            to="/jobs"
+            to="/job-portal/jobs"
             className="text-indigo-500 hover:text-indigo-600 flex items-center"
           >
             <FaArrowLeft className="mr-2" /> Back to Job Listings
@@ -107,7 +107,7 @@ const JobPage = ({ deleteJob }: JobPageProps) => {
               <div className="bg-white p-6 rounded-lg shadow-md mt-6">
                 <h3 className="text-xl font-bold mb-6">Manage Job</h3>
                 <Link
-                  to={`/jobs/${job.id}/edit`}
+                  to={`/job-portal/jobs/${job.id}/edit`}
                   className="bg-indigo-500 hover:bg-indigo-600 text-white text-center font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4 block"
                 >
                   Edit Job

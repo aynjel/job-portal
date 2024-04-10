@@ -45,17 +45,20 @@ const App = () => {
 
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<MainLayout />}>
+      <Route path="/job-portal/" element={<MainLayout />}>
         <Route index element={<Home />} />
-        <Route path="/jobs" element={<JobsPage />} />
+        <Route path="/job-portal/jobs" element={<JobsPage />} />
         <Route
-          path="/jobs/:id"
+          path="/job-portal/jobs/:id"
           element={<JobPage deleteJob={deleteJob} />}
           loader={jobLoader}
         />
-        <Route path="/add-job" element={<AddJobPage addJobSubmit={addJob} />} />
         <Route
-          path="/jobs/:id/edit"
+          path="/job-portal/add-job"
+          element={<AddJobPage addJobSubmit={addJob} />}
+        />
+        <Route
+          path="/job-portal/jobs/:id/edit"
           element={<EditJobPage updateJobSubmit={updateJob} />}
           loader={jobLoader}
         />

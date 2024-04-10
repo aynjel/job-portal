@@ -52,7 +52,7 @@ const AddJobPage = ({ addJobSubmit }: AddJobPageProps) => {
     } finally {
       setTimeout(() => {
         setLoading(false);
-        navigate("/jobs");
+        navigate("/job-portal/jobs");
       }, 300);
     }
   };

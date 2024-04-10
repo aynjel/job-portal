@@ -40,7 +40,7 @@ const JobListing = ({ job }: { job: JobDTO }) => {
             {job.location}
           </div>
           <Link
-            to={`/jobs/${job.id}`}
+            to={`/job-portal/jobs/${job.id}`}
             className="h-[36px] bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-lg text-center text-sm"
           >
             Read More

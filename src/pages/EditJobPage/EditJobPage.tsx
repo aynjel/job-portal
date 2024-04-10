@@ -58,7 +58,7 @@ const EditJobPage = ({ updateJobSubmit }: EditJobPageProps) => {
         try {
           updateJobSubmit(updatedJob);
           toast.success("Job Updated Successfully");
-          return navigate(`/jobs/${id}`);
+          return navigate(`/job-portal/jobs/${id}`);
         } catch (error) {
           toast.error("Error updating job!");
         }

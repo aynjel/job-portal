@@ -21,9 +21,10 @@ const Navbar = () => {
               </a>
               <div className="md:ml-auto">
                 <div className="flex space-x-2">
-                  <NavLink to="/job-portal/" className={linkClasses}>
+                  <NavLink to="/job-portal/" className={linkClasses} end>
                     Home
                   </NavLink>
+
                   <NavLink to="/job-portal/jobs" className={linkClasses}>
                     Jobs
                   </NavLink>

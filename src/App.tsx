@@ -61,7 +61,10 @@ const App = () => {
         />
         <Route path="*" element={<NotFound />} />
       </Route>
-    )
+    ),
+    {
+      basename: "/job-portal/",
+    }
   );
 
   return <RouterProvider router={router} />;

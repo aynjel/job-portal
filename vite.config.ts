@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://aynjel.github.io/job-portal/",
+  base: "/job-portal/",
   build: {
     outDir: "dist",
   },

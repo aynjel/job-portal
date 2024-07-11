@@ -63,7 +63,7 @@ const App = () => {
       </Route>
     ),
     {
-      basename: "/job-portal/",
+      basename: "/job-portal",
     }
   );
 
